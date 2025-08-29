@@ -1,0 +1,41 @@
+.cert-page {
+padding: 40px;
+text-align: center;
+background: #f6efe7;
+margin-top: 60px;
+margin-bottom: 80px;
+}
+.cert-page h2 {
+margin-bottom: 30px;
+font-size: 28px;
+}
+.cert-grid {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+.cert-item {
+width: 300px;
+height: 400px;
+overflow: hidden;
+border-radius: 12px;
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+background: #f6efe7;
+opacity: 0;
+transform: translateY(20px) scale(0.95);
+transition: opacity 0.6s ease, transform 0.6s ease;
+transition-delay: var(--delay, 0s);
+}
+.cert-item.visible {
+opacity: 1;
+transform: translateY(0) scale(1);
+}
+.cert-item:hover {
+transform: translateY(-5px) scale(1.02);
+}
+.cert-item img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}

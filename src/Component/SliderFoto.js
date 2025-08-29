@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css";
+import "../App/Slider.css";
 import { useNavigate } from "react-router-dom";
 
 function CardEquipment({ image, text, link }) {

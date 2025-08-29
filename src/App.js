@@ -15,8 +15,8 @@ import Equipment from "./Pages/Equipment";
 import Certificates from "./Pages/Certificates";
 import Customers from "./Pages/Customers";
 import Footer from './Component/Footer';
-import Loader from './Pages/Loader';
-import Navbar from "./Pages/Navbar";
+import Loader from './Component/Loader';
+import Navbar from "./Component/Navbar";
 import './App.css';
 
 function App() {

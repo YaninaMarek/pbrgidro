@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import "../App.css";
+import "../App/Certificates.css";
 
 function Certificates() {
   const [show, setShow] = useState(false);
 
   useEffect(() => {
-    window.scrollTo(0, 0); // прокрутка наверх
-    setTimeout(() => setShow(true), 100); // включаем анимацию
+    window.scrollTo(0, 0); 
+    setTimeout(() => setShow(true), 100); 
   }, []);
 
   const images = [

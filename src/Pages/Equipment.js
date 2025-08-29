@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from "react";
 import { equipmentList } from "../Component/EquipmentData";
 import EquipmentCard from "../Component/EquipmentCard"
-
+import "../App/EquipmentCard.css"
 
 function EquipmentPage() {
   const [flippedId, setFlippedId] = useState(null);
@@ -15,9 +15,9 @@ function EquipmentPage() {
   };
 
   return (
-    <div style={{ padding: "40px" }}>
-      <h2 className="top" style={{ textAlign: "center", marginTop: "60px", marginBottom: "30px" }}>ОБОРУДОВАНИЕ</h2>
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(600px, 1fr))", gap: "20px", justifyItems: "center"}}>
+    <div>
+      <h2 className="top eqip">ОБОРУДОВАНИЕ</h2>
+      <div className="eqipcard">
         {equipmentList.map(item => (
           <EquipmentCard
             key={item.id}

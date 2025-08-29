@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
-
+import '../App/Slider.css';
 
 const letters = [
   "/images/le1.jpg",
@@ -28,7 +28,7 @@ const TestimonialsSlider = () => {
   };
 
   return (
-    <div style={{ maxWidth: 1000, margin: 'auto', padding: '20px' }}>
+    <div className='testSlider'>
       <Slider {...settings}>
         {letters.map((src, idx) => (
           <div key={idx}>

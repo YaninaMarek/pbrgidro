@@ -1,5 +1,5 @@
 import React from "react";
-import "../App.css";
+import "../App/EquipmentCard.css";
 
 function EquipmentCard({ item, isFlipped, onClick }) {
   return (
