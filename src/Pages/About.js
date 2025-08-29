@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import MapWithIcons from '../Component/FarEastMap';
 import TestimonialsSlider from '../Component/TestimonialsSlider';
-import video from "../FotoSite/field3.mp4";
+import video from "../FotoSite/field4.mp4";
 import CardEquipment from "../Component/SliderFoto";
 import AOS from "aos";
 
